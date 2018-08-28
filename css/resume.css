@@ -1,18 +1,18 @@
 
 @media screen and (min-width:800px){
     .header{
-        width:80%;;
+        width:70%;;
         height: 25px;
         position:fixed;
-        left:10%;
+        left:15%;
         background-color:#CCCCCC ;
         z-index: 999;
         line-height: 25px;
-        color:#3809F7;
+        color:#6969DA;
         border-bottom:1px solid #fff;
     }
     .container { 
-        width:80%;
+        width:70%;
         height: 80vh;
         position:relative;
         top:25px;
@@ -24,16 +24,20 @@
         height:100%;
         width: 300px;
         position:fixed;
-        padding-top:10px;
+        padding-top:40px;
         line-height: 25px;
         padding-left:5px;
         padding-right:5px;
+    }
+    .left-content{
+        padding-top:40px;
     }
     .right{
         margin-left:310px;
         background-color:#CCCCCC;
         padding-bottom:10px;
         padding-top:5px;
+        min-height:calc(100vh - 25px);
     }
     .face{
         display:block;
@@ -55,7 +59,7 @@
         font-size: 1.5rem;
         height:1rem;
         line-height: 1rem;
-        color:#3809F7;
+        color:#6969DA;
     }
     .circle{
         border-radius: 8px;
@@ -63,6 +67,7 @@
         width:4px;
         height:4px;
         display:inline-block;
+        margin-top:20px;
         margin-left:12px;
         margin-right:4px;
      }
@@ -91,7 +96,7 @@
         font-size:1rem;
     }
     .font-blue{
-        color:#3809F7;
+        color:#6969DA;
     }
     .web-link{
         text-decoration:none;
@@ -150,7 +155,7 @@
         font-size: 4vh;
         height:4vh;
         line-height: 4vh;
-        color:#3809F7;
+        color:#6969DA;
     }
     .circle{
         border-radius: 2vh;
@@ -165,7 +170,7 @@
         color:#F5FDF0;
     }
     .font-blue{
-        color:#3809F7;
+        color:#6969DA;
     }
     .web-link{
         text-decoration:none;
